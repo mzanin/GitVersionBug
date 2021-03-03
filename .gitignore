@@ -1,0 +1,44 @@
+bin/Debug*
+bin/Release*
+bin/NuGet*
+bin/doc*
+bin/*.sh
+bin/*.bat
+bin/*.log
+bin/Installer*
+tmp*
+
+#precompiled headers
+rsm/ipch*
+
+#visual studio tmp files
+*.sdf
+*.opensdf
+*.suo
+*.aps
+
+src/.vs/*
+src/packages/*
+src/rsm.sln.DotSettings.user
+src/ipch*
+*.csproj.user
+src/Packages.dgml
+*.cache
+src/TestResults/*
+src/*.VC.db
+src/*.VC.VC.opendb
+src/.vs/
+src/GitVersionAssemblyInfo.cs
+GitExtensions.settings*
+src/.idea/*
+
+$tf/
+Artifacts*
+
+*.ndproj
+src/NDependOut/*
+
+#generated list of files to include in the MSI
+src/Installer/RSM/Fragments/BinariesFragment.wxs
+__pycache__
+_ResourcesForTranslation
